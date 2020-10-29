@@ -1,0 +1,134 @@
+{
+    "metadata": [
+        [
+            9,
+            "Ethanol_FBA",
+            "KBaseFBA.FBA-13.2",
+            "2020-10-29T12:41:06+0000",
+            1,
+            "amardeep_si",
+            75957,
+            "amardeep_si:narrative_1603974116448",
+            "e8bbd0a82efdee2f0b89ccf1af5b987a",
+            1568,
+            {
+                "Combination deletions": "0",
+                "Maximized": "1",
+                "Media": "262/278/11",
+                "Minimize reactions": "0",
+                "Model": "75957/6/1",
+                "Number additional compounds": "0",
+                "Number biomass objectives": "0",
+                "Number compound bounds": "0",
+                "Number compound variables": "0",
+                "Number constraints": "0",
+                "Number gene KO": "0",
+                "Number reaction KO": "0",
+                "Number reaction bounds": "0",
+                "Number reaction variables": "0",
+                "Objective": "0"
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2020-10-29T12:41:06+0000",
+            "creator": "amardeep_si",
+            "epoch": 1603975266027,
+            "extracted_ids": {},
+            "info": [
+                9,
+                "Ethanol_FBA",
+                "KBaseFBA.FBA-13.2",
+                "2020-10-29T12:41:06+0000",
+                1,
+                "amardeep_si",
+                75957,
+                "amardeep_si:narrative_1603974116448",
+                "e8bbd0a82efdee2f0b89ccf1af5b987a",
+                1568,
+                {
+                    "Combination deletions": "0",
+                    "Maximized": "1",
+                    "Media": "262/278/11",
+                    "Minimize reactions": "0",
+                    "Model": "75957/6/1",
+                    "Number additional compounds": "0",
+                    "Number biomass objectives": "0",
+                    "Number compound bounds": "0",
+                    "Number compound variables": "0",
+                    "Number constraints": "0",
+                    "Number gene KO": "0",
+                    "Number reaction KO": "0",
+                    "Number reaction bounds": "0",
+                    "Number reaction variables": "0",
+                    "Objective": "0"
+                }
+            ],
+            "orig_wsid": 75957,
+            "path": [
+                "75957/9/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "external_data": [],
+                    "input_ws_objects": [],
+                    "method": "run_flux_balance_analysis",
+                    "method_params": [
+                        {
+                            "activation_coefficient": 0.5,
+                            "all_reversible": 0,
+                            "beachhead_metabolite_list": [],
+                            "custom_bound_list": [],
+                            "default_max_uptake": 0,
+                            "exp_threshold_margin": 0.1,
+                            "exp_threshold_percentile": 0.5,
+                            "expression_condition": "",
+                            "expseries_id": null,
+                            "expseries_workspace": "amardeep_si:narrative_1603974116448",
+                            "fba_output_id": "Ethanol_FBA",
+                            "fbamodel_id": "75957/6/1",
+                            "fbamodel_workspace": "amardeep_si:narrative_1603974116448",
+                            "feature_ko_list": [],
+                            "find_min_media": 0,
+                            "fva": 1,
+                            "massbalance": null,
+                            "max_c_uptake": null,
+                            "max_n_uptake": null,
+                            "max_o_uptake": null,
+                            "max_p_uptake": null,
+                            "max_s_uptake": null,
+                            "media_id": "PlantHeterotrophicMedia",
+                            "media_id_list": null,
+                            "media_supplement_list": "",
+                            "media_workspace": "KBaseMedia",
+                            "mediaset_id": null,
+                            "mediaset_workspace": "amardeep_si:narrative_1603974116448",
+                            "minimize_flux": 1,
+                            "notes": null,
+                            "objective_fraction": 0.1,
+                            "omega": 0,
+                            "predict_auxotrophy": 0,
+                            "reaction_ko_list": [],
+                            "sensitivity_analysis": 0,
+                            "simulate_ko": 0,
+                            "target_metabolite_list": [],
+                            "target_reaction": "rxn00543_c0",
+                            "thermodynamic_constraints": 0,
+                            "workspace": "amardeep_si:narrative_1603974116448"
+                        }
+                    ],
+                    "resolved_ws_objects": [],
+                    "service": "fba_tools",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "75957/6/1",
+                "262/278/11"
+            ]
+        }
+    ]
+}
